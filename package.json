@@ -1,0 +1,32 @@
+{
+  "name": "GraphQL_API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manggong/GraphQL_API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manggong/GraphQL_API/issues"
+  },
+  "homepage": "https://github.com/manggong/GraphQL_API#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "graphql-yoga": "^1.18.3",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security",
+    "nodemon": "^2.0.2"
+  }
+}
